@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Random Quotes</title>
+</head>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Grape+Nuts&family=Pacifico&family=Playfair+Display&family=Rubik+Burned&family=Space+Grotesk:wght@300;400&display=swap');
+	/*@font-face 
+    {
+	    font-family: 'roboto';
+	    src: url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.eot');
+	    src: url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.woff') format('woff'),
+	         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.ttf') format('truetype'),
+	         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+	    font-weight: 700;
+	    font-style: normal;
+
+    }*/
+	.wrapper
+	{
+		width: 100%;
+       height: 100%;
+	}
+	*
+	{
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+	}
+	body
+	{
+		 background-image: url(bck.jpg);
+		 min-width: 399px;
+	}
+	.main
+	{
+	    width: 750px;
+	    height: 375px;
+/*	    border: 1px solid white;*/
+	    margin: auto;
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+/*	    background-color: ghostwhite;*/
+	    border-radius: 24px;
+	    border-radius: 60px;
+/*        box-shadow: -1px 1px 5px 5px rgb(0 0 0 / 31%);*/
+    }
+    h2
+    {
+    	text-align: center;
+	    padding-top: 33px;
+	    word-spacing: 8px;
+	    font-family: 'roboto';
+	     font-size: 30px;
+	    font-style: normal;
+    }
+    .quotes 
+    {
+	    border: 1px solid #ff000003;
+	    width: 100%;
+	    height: 92px;
+	    padding-top: 40px;
+	    margin-bottom: 27px;
+    }
+	button 
+	{
+	    width: 250px;
+	    height: 68px;
+	    padding: 2px 7px;
+	    font-family: 'Roboto';
+	    font-size: 28px;
+	    border-radius: 53px;
+	    background-color: #ffa50000;
+	    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 70%);
+	    border: none;
+	    color: white;
+	    margin: 0;
+	    position: absolute;
+	    /* top: 90%; */
+	    left: 50%;
+	    -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
+	    margin-top: 8px;
+    }
+    button:hover
+    {
+    	 cursor: pointer;
+    }
+    p
+    {
+      text-align: center;
+      font-size: 20px;
+     font-family: 'Comfortaa', sans-serif;
+     /* background: linear-gradient(to left,
+                    violet,
+                    indigo,
+                    blue,
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;*/
+    }
+    .double_quotes 
+    {
+	    display: inline-block !important;
+/*	    border: 1px solid #00ff2e;*/
+	    font-size: 32px;
+	    width: 14px;
+	    height: 15px;
+	    text-align: center;
+	    color:#0062ff96;
+    }
+    #author_name
+    {
+    	width: 50%;
+	    display: block;
+	    height: 64px;
+	    padding-top: 10px;
+	    margin-bottom: 42px;
+	    margin: auto;
+	    margin-bottom: 35px;
+	    font-size: 32px;
+	    text-align: center;
+	    font-family: 'Comfortaa', sans-serif;
+    }
+    @media screen and (min-width: 400px)
+    {
+    	.main 
+    	{
+		    width: 98%;
+		    max-width: 750px;
+        }
+        span
+        {
+        	font-size: 25px;
+        }
+        p
+        {
+            font-size: 17px;
+        }
+
+    }
+    @media screen and (max-width: 399px)
+    {
+    	.main 
+    	{
+		   
+		    max-width: 390px;
+        }
+        span
+        {
+        	font-size: 25px;
+        }
+       body 
+       {
+          overflow-x: scroll;
+       }
+   }
+
+	
+</style>
+<body>
+	<div class="wrapper">
+		<div class="main">
+			<h2>Quotes Of the Day</h2>
+			<div class="quotes">
+				<p id="demo"><span id="dot"class="double_quotes">"</span>The most important thing is to try and inspire people so that they can be great in whatever they want to do.<span class="double_quotes">"</span></p>
+			</div>
+            <span id="author_name"> Kobe Bryant.</span>
+			<button id="'nex_quotes" onclick="generateQuote()">New Quotes</button>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript">
+	function generateQuote() 
+  {
+	    const quotes = [
+	    {
+	        quote: "Do not pity the dead, Harry. Pity the living, and, above all those who live without love.",
+	        author: "Albus Dumbledore"
+	    },
+	    {
+	        quote: "It is impossible to manufacture or imitate love",
+	        author: "Horace Slughorn"
+	    },
+	    {
+	        quote: "Being different isn't a bad thing. I mean that you are brave enough to be yourself.",
+	        author: "Luna Lovegood"
+	    },
+	    {
+	        quote: "If you want to know what a man’s like, take a good look at how he treats his inferiors, not his equals.",
+	        author: "Sirius Black"
+	    },
+	    {
+	        quote: "Never trust anything that can think for itself if you can’t see where it keeps its brain.",
+	        author: "Arthur Weasley"
+	    },
+	    {
+	        quote: "Every human life is worth the same, and worth saving.",
+	        author: "Kingsley Shacklebolt"
+	    },
+	    {
+	        quote: "Have a biscuit, Potter.",
+	        author: "Minerva McGonagall"
+	    },
+	    {
+	        quote: "Happiness can be found even in the darkest of times if one only remembers to turn on the light.",
+	        author: "Albus Dumbledore"
+	    },
+	    {
+	        quote: "Socks are Dobby’s favorite, favorite clothes, sir!",
+	        author: "Dobby"
+	    },
+	    {
+	    	quote: "Everything Happense For a Reason",
+	    	author: "Shakesphere"
+	    }
+        ];
+        console.log(quotes[9])
+        let arrayIndex = Math.floor(Math.random() * quotes.length);
+        console.log(arrayIndex);
+        var quotes_name = document.getElementById("demo").innerHTML = quotes[arrayIndex].quote;
+        console.log(quotes_name);
+        var author=document.getElementById("author_name").innerHTML = quotes[arrayIndex].author;
+        console.log(author);
+   }
+   generateQuote();
+   
+</script> 
+</html>
