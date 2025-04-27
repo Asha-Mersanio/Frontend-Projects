@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Task 2</title>
+		<style>
+	 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
+    * {
+         box-sizing: border-box;
+      }
+    body{
+         margin: 0;
+         padding: 0;
+        }
+    .wrapper{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        min-height: 705px;
+        background-color: rgb(242 243 245);
+       }
+    .Email{
+    	width: 551px;
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 763px;
+       }
+    header img {
+        position: relative;
+        left: -20px;
+        top: 2px;
+        width: 100px;
+        height: 100px;
+         }
+    header a  {
+        position: absolute;
+        right: 0;
+        color: #607d8b;
+        bottom: 682px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 13px;
+      }
+      section{
+        width: 550px;
+        height: 426px;
+      }
+    section img{
+           width: 550px;
+           height: 166px;
+           margin-top: -18px;
+           /*border-radius: 3px;*/
+           border-top-left-radius: 3px;
+           border-top-right-radius: 3px;
+           
+             }
+    .bg{
+        /* background-color: #FFFFFF;*/
+         width: 550px;
+         height: 425px;
+             }
+    h1{
+    	font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        font-weight: 300;
+        color: black;
+    }
+    .Para{
+    	text-align: center;
+    	color: darkslategray;
+        padding-bottom: 25px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 1.5em;
+        color: dimgrey;
+    }
+
+    .link{
+    
+        background-color: rgb(255, 174, 0);
+        border: 2px solid rgb(255, 174, 0);
+        text-decoration: none;
+        color: white;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-left: 33px;
+        padding-right: 11px;
+        border-radius: 3px;
+        display: block;
+        width: 212px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin: auto;
+
+    }
+    section{
+
+        
+        background-color: white;
+        border-radius: 2px;
+        box-shadow: rgb(128 128 128 / 13%) 0px 2px;
+    }
+    h3{
+        text-align: center;
+        font-family: 'Indie Flower', cursiv;
+        letter-spacing: 3px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: black;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .tfm{
+         width: 135px;
+         margin: auto;
+         padding-bottom: 5px;
+       
+    }
+    .p2{
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 11px;
+        color: gray;
+        line-height: normal;
+     
+    }
+    .p3{
+         text-align: center;
+         font-family: 'Roboto', sans-serif;
+         font-size: 11px;
+         color: gray;
+         margin-top: -12px;
+    }
+    .img1:hover{
+        cursor: pointer;
+    }
+    .img2:hover
+    {
+    cursor: pointer;
+    }
+    .img3:hover{
+        cursor: pointer;
+    }
+    .img2{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .colo{
+        background-color: #FFFFFF;
+    }
+    @media screen and (max-width: 599px) and (min-width: 280px)
+                {
+                    .Email{
+                        min-width: 260px;
+                        width: 95%;
+                        max-width: 580px;
+                        
+                    }
+                    .header img {
+                    position: relative;
+                    left: -25px;
+                    top: 2px;
+                    min-width: 50px;
+                    max-width: 100px;
+                    width: 50%;
+                }
+                header a  {
+                     position: absolute;
+                     right: 3px;
+                     color: #607d8b;
+                     bottom: 682px;
+                     font-family: 'Roboto', sans-serif;
+                     font-size: 13px;
+          }
+                section{
+
+                    min-width: 270px;
+                    max-width: 580px;
+                    width: 100%;
+                }
+             
+                section img{
+                      height: 166px;
+                    margin-top: -18px;
+                    border-radius: 3px;
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
+                    min-width: 270px;
+                    max-width: 563px;
+                    width: 100%;
+                }
+                    h1 {
+                    font-size: 30px;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center;
+                    font-weight: 300;
+                    color: black;
+                    min-width: 260;
+                    max-width: 580px;
+                    width: 100%;
+                }
+                .Para {
+                text-align: center;
+                color: darkslategray;
+                padding-bottom: 25px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                line-height: 1.5em;
+                color: dimgrey;
+                min-width: 268px;
+                max-width: 580px;
+                width: 100%;
+            }
+               .link {
+              background-color: rgb(255, 174, 0);
+            border: 2px solid rgb(255, 174, 0);
+            text-decoration: none;
+            color: white;
+            padding-top: 9px;
+            padding-bottom: 9px;
+            padding-left: 33px;
+            padding-right: 11px;
+            border-radius: 3px;
+            display: block;
+            width: 212px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 15px;
+            margin: auto;
+            margin-top: 10px;
+        }
+    }
+    @media screen and (max-width: 279px)
+        {
+            .wrapper {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    margin: 0;
+                    padding: 0;
+                    min-height: 705px;
+                    background-color: rgb(242 243 245);
+                    min-width: 281px;
+                }
+
+            .Email{
+                       min-width: 263px;
+                       width: 92%;
+                       max-width: 279px;
+                        
+                    }
+                    .header img {
+                    position: relative;
+                    left: -26px;
+                    top: 2px;
+                    width: 92px;
+                    height: 92px;
+                }
+                header a  {
+                     position: absolute;
+                     right: 0px;
+                     color: #607d8b;
+                     bottom: 680px;
+                     font-family: 'Roboto', sans-serif;
+                     font-size: 13px;
+          }
+                section{
+
+                    min-width: 258px;
+                    max-width: 279px;
+                    width: 100%;
+                }
+             
+                section img {
+                               
+                             
+                             height: 166px;
+                             margin-top: -18px;
+                             border-radius: 3px;
+                             border-top-left-radius: 3px;
+                             border-top-right-radius: 3px;
+                             min-width: 242px;
+                             max-width: 279px;
+                             width: 100%;
+                }
+                    h1 {
+                    font-size: 30px;
+                    font-family: 'Roboto', sans-serif;
+                    text-align: center;
+                    font-weight: 300;
+                    color: black;
+                    min-width: 260;
+                    max-width: 580px;
+                    width: 100%;
+                }
+                .Para {
+                text-align: center;
+                color: darkslategray;
+                padding-bottom: 25px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 12px;
+                line-height: 1.5em;
+                color: dimgrey;
+                min-width: 257px;
+                max-width: 580px;
+                width: 100%;
+            }
+               .link {
+                        background-color: rgb(255, 174, 0);
+                        border: 2px solid rgb(255, 174, 0);
+                        text-decoration: none;
+                        color: white;
+                        padding-top: 9px;
+                        padding-bottom: 9px;
+                        padding-left: 33px;
+                        padding-right: 11px;
+                        border-radius: 3px;
+                        display: block;
+                        width: 212px;
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 15px;
+                        margin: auto;
+                        margin-top: 10px;
+        }
+        .p3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: gray;
+    margin-top: -12px;
+    }
+}
+</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="Email">
+				<header>
+					<img src="Task2 images/images/logo.jpg" alt="logo">
+					<a href="https://www.browserstack.com/guide/view-mobile-version-of-website-on-chrome"> view in browser </a>
+				</header>
+				<section>
+				   		<div class="img">
+						   	<br>
+							 <img class ="i"src="Task2 images/images/header img.jpg" alt="header" width="300px" height="300x">
+							 <div class="colo">
+						     <h1>Email Confirmation</h1>
+						     <p class="Para">Hey Mara, You almost ready to start enjoying Hailo. <br>Simply Click The Big Yellow Button to Verify Your<br>email address</p>  
+						     <a class="link" href="https://support.google.com/accounts/answer/63950?hl=en"> Verify Email Address </a>
+						 </div>
+		          		</div>
+		      		
+		        </section>
+		        <div>
+		       		<h3> Stay In Touch</h3>
+		       		<div class="tfm">
+		       		<img class="img1" src="Task2 images/images/twitter.jpg" alt="twitter" width="35px" height="35px" >
+		       		<img class="img2" src="Task2 images/images/facebook.jpg" width="35px" height="35px">
+		            <img class="img3"src="Task2 images/images/mail.jpg" width="35px" height="35px">
+		            </div>
+		         </div>
+		         <div class="Copy">
+		        	<footer>
+		        		<p class="p2"> Email sent by Hailo</p>
+		        		<p class="p3">Copyright &copy; 2015 Hailo Networks LTD,All rights reserved</p>
+		        	</footer>
+		        </div>
+			</div>
+		</div>
+	</body>
+</html>

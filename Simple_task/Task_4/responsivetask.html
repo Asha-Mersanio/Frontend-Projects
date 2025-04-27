@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Task 4</title>
+	<style>
+	*{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+	      .wrapper{
+	      	width: 100%;
+	      	height: 100%;
+	      	min-height: 700px;
+	      	position: absolute;
+	      	padding: 0;
+	      	margin: 0;
+	      }
+	      .container{
+	      	width: 100%;
+            height: 100%;
+            /*background-color: black;*/
+	      }
+	      #mainBox{
+	            width: 100%;
+	    		height: 80%;
+	            /* border: 1px solid white; */
+	            margin: auto;
+	            position: absolute;
+	            left: 0;
+	            right: 0;
+	            top: 150px;
+	            bottom: 0px;
+		     }
+			      .boxes{
+			      	width: 25%;
+			      	float: left;
+		            height: 95%;
+		            position: relative;
+			      }
+	      #leftBox{
+            background-color: gold;
+	      }
+	      img{
+	      	width: 50%;
+	      	height: 50%;
+		    margin: auto;
+		    display: block;
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    top: 0;
+		    bottom: 0;
+
+	      }
+	      #middleBox{
+	      	
+            /*border: 1px solid black;*/
+            background-color: green;
+           
+	      }
+	      #middleBox1{
+	      	
+            /*border: 1px solid black;*/
+            background-color: red;
+	      }
+	      #rightBox{
+	      
+            /*border: 1px solid black;*/
+            background-color: royalblue;
+	      }
+	      @media screen and (max-width: 960px) and (min-width: 600px)
+	      	{
+	      		#mainBox{
+	      	  
+		            width: 100%;
+		    		height: 80%;
+		            /* border: 1px solid white; */
+		            margin: auto;
+		            position: absolute;
+		            left: 0;
+		            right: 0;
+		            top: 150px;
+		            bottom: 0px;
+		            min-width: 600px;
+		            max-width: 959px;
+			      }
+
+	      	
+	      	#leftBox{
+	      		width: 50%;
+	      	}
+	      	#middleBox{
+	      		width: 50%;
+	      	}
+	         #middleBox1{
+	      	    width: 50%;
+	      	}
+	      	#rightBox{
+	      	width: 50%;
+
+
+	      }
+	  }
+	       @media screen and (max-width: 599px) and (min-width: 280px)
+	      	{
+	      		#mainBox{
+	      	  
+		            width: 100%;
+		    		height: 80%;
+		            /* border: 1px solid white; */
+		            margin: auto;
+		            position: absolute;
+		            left: 0;
+		            right: 0;
+		            top: 150px;
+		            bottom: 0px;
+		            min-width: 260px;
+		            max-width: 640px;
+			      }
+
+	      	
+	      	#leftBox{
+	      		width: 100%;
+	      	}
+	      	#middleBox{
+	      		width: 00%;
+	      	}
+	         #middleBox1{
+	      	    width: 100%;
+	      	}
+	      	#rightBox{
+	      		width: 100%;
+	      	}
+	  }
+	
+
+	  </style>
+</head>
+<body>
+	<div class="wrapper">
+		<h1> Responsive Task </h1>
+		<div class="container">
+			<div id="mainBox">
+				<!-- <h1></h1> -->
+				<div id="leftBox" class="boxes">
+					<img src="images res/tj.jpeg" width="25%" height="25%">
+				</div>
+				<div id="middleBox" class="boxes">
+					<img src="images res/tj1.jpeg">
+				</div>
+				<div id="middleBox1" class="boxes">
+					<img src="images res/tj2.jpeg">
+				</div>
+				<div id="rightBox" class="boxes">
+					<img src="images res/tj3.jpeg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
