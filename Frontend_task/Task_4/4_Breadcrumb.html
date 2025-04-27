@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/4_breadcrumb.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-bold/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="fonts/roboto/roboto-regular/stylesheet.css">
+	<title>Fourth Task</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h1 id="heading_bold">Breadcrumb</h1>
+		<ul class="container">
+			<li class="items"><a href="#" id="a1">home</a><img src="images/icons8-forward-26.png" alt="arrow" id="arrow1" class="image_icon"></li>
+			<li class="items" id="it">
+				<div class="drop">
+				<a href="#" style="color: black; text-decoration: none;" onclick="div_items_open()" onblur="div_items_close()" id="a2">3 
+					<img src="images/icons8-sort-down-30.png" alt="downtriangle" id="dropdown" ></a>
+				</div>
+					<img src="images/icons8-forward-26.png" alt="arrow" id="img" class="image_icon">
+				<ul class="list1" style="display: none;" id="subdiv">
+					<li style="text-align: initial;font-family: 'roboto';font-weight: 400;font-style: normal;"><div class="images"> <img src="images/icons8-forward-26.png" alt="image1"  class="pic" id="sub1"></div> Edit</li>
+					<li style="text-align: initial;font-family: 'roboto';font-weight: 400;font-style: normal;"><div class="images"> <img src="images/icons8-forward-26.png" alt="image1"  class="pic" id="sub2">Deployment</li>
+					<li style="text-align: initial;font-family: 'roboto';font-weight: 400;font-style: normal;"><div class="images"> <img src="images/icons8-forward-26.png" alt="image1"  class="pic" id="sub3">Application</li>
+				</ul>
+			<li class="items"><a href="#" style="color: black; text-decoration:none;" id="a3">title</a></li>
+		</ul>
+	</div>
+</body>
+<script type="text/javascript" src="js/4_Breadcrumb.js"></script>
+</html>
