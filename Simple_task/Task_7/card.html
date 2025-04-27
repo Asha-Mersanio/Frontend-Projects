@@ -1,0 +1,266 @@
+<html>
+<head>
+	 <title> Task 7 </title>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link rel="stylesheet" href="visitingcard.css">
+     <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+	 <script type="text/javascript" src="visitingcard.js"></script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="tab">
+			 <button class="tablinks" id="btn" onclick="openTemplate()">Template</button>
+	         <button class="tablinks" id="btn1" onclick="openCard()">Mycard</button>
+	</div>
+
+	<center id="c1" >
+	         <h3> Select   Front   and   Back   card </h3>
+	</center>
+    <div class="container"  id="div1" >
+           <div class="box" onclick="openCard1()">
+                <div class="card1" >
+                     <center>
+                     <img src="logo.png" alt="logo"  class="logoimage">
+                     </center>
+                     <input type="text" id="viewComName" name="Companyname" placeholder="COMPANY NAME" readonly>
+
+                <div class="webicon">
+                     <img src="url.svg" alt="url" style="width:10px">
+                     <input type="text" id="viewweb" placeholder="Website" readonly>
+               </div>	    
+               </div>
+
+                <div class="card2">
+                    <img src="logo.png" alt="logo"  id="img1" class="logoimage2">
+                    <input type="text" id="viewCompanyName" name="Companyname" placeholder="Company Name"  class="logoimage2"readonly>
+                    <img src="qr.png" alt="logo" style="width:16%;display:none" id="qr" >
+              <!--  <div class="data"> -->
+
+                <div class="personicon">
+					<img src="person.svg" alt="person" style="width:5%" id="person" >
+					<input type="text" id="viewName" name="Name" placeholder="Name" readonly>
+				</div>
+
+				<div class="roleicon">
+				    <img src="domain.svg" alt="domain" style="width:5%" id="work" >
+				    <input type="text" id="viewRole" name="Role" placeholder="Designation" readonly>
+			    </div>
+
+			    <div class="mobileicon">
+			        <img src="phone.svg" alt="phone" style="width:5%" id="phonenumber" >
+				    <input type="tel" id="viewmobile" name="mobile" placeholder="Phone No" readonly>
+			    </div>
+
+			    <div class="addressicon">
+			        <img src="address.svg" alt="address" style="width:5%" id="add" >
+				    <input type="text" id="viewAddress" name="Address" placeholder="Address" readonly>
+			    </div>
+
+				<div class="emailicon">
+				    <img src="email.svg" alt="email" style="width:5%" id="emailaddress" >
+				     <input type="email" id="viewEmail" name="Email" placeholder="Email Address" readonly>
+				</div>  
+			 <!--  </div> -->
+                   <div class="v1"></div>
+                 </div>
+           </div>
+    </div>
+
+    <center id="c2" style="display: none;">
+	         <h3> Enter the card details</h3>          
+	</center>
+    <div class="container" id="div2" style="display: none;">
+
+    	<div class="backimageicon" onclick="clickBack()">
+    		<img src="download.png" alt="back" style="width:40px">
+    	    <a href="card.html">Back</a>
+    	</div>
+           <div class="box1">
+                <div class="card1"  >
+                     <center>
+                     <form>
+                     <input type="file" id="myfile" name="myfile" class="editfile">
+                     <img src="logo.png" alt="logo"  id="upload_file" accept="image/jpeg, image/png" class="logoimage">
+                     <label for="myfile"></label>
+                     </form>
+                     </center>
+                     <input type="text" id="conpanylogoname" name="Companyname" placeholder="COMPANY NAME" >
+
+                <div class="webicon">
+                     <img src="url.svg" alt="url" style="width:10px">
+                     <input type="text" id="web" placeholder="Website" >
+               </div>	    
+               </div>
+
+                <div class="card2">
+                    <input type="file" id="myfile1" name="myfile" class="editfile1">
+                    <img src="logo.png" alt="logo"  id="img1" accept="image/jpeg, image/png" class="logoimage2">
+                    <label for="myfile1" id="label"></label>
+                    <input type="text" id="companyname" name="Companyname" placeholder="Company Name" style="z-index: 5;" >
+                    <input type="file" id="myfile2" name="myfile" style="display:none;">
+                    <img src="qr.png" alt="logo" style="width:16%;display:none;" id="qr" accept="image/jpeg, image/png">
+                    <label for="myfile2" id="label2"></label>
+              <!--  <div class="data"> -->
+
+                <div class="personicon">
+					<img src="person.svg" alt="person" style="width:5%" id="person" >
+					<input type="text" id="name" name="Name" placeholder="Name" >
+				</div>
+
+				<div class="roleicon">
+				    <img src="domain.svg" alt="domain" style="width:5%" id="work" >
+				    <input type="text" id="role" name="Role" placeholder="Designation" >
+			    </div>
+
+			    <div class="mobileicon">
+			        <img src="phone.svg" alt="phone" style="width:5%" id="phonenumber" >
+				    <input type="tel" id="Mobile" name="mobile" placeholder="Phone No" >
+			    </div>
+
+			    <div class="addressicon">
+			        <img src="address.svg" alt="address" style="width:5%" id="add" >
+				    <input type="text" id="address" name="Address" placeholder="Address">
+			    </div>
+
+				<div class="emailicon">
+				    <img src="email.svg" alt="email" style="width:5%" id="emailaddress" >
+				     <input type="email" id="email" name="Email" placeholder="Email Address" >
+				</div>  
+			 <!--   </div> -->
+                   <div class="v1"></div>
+                 </div>
+           </div>
+           <div class="buttons">
+              <center>
+              <button name="button" class="button" onclick="uploadFile()">Save</button>
+              <button name="cancel" class="button" onclick="clickBack()">Cancel</button>
+              </center>
+           
+          </div>
+    </div>
+
+    <center id="c3" style="display: none;">
+    	<h3> Edit card details </h3>
+    </center>
+    <div class="container" id="div3" style="display: none;">
+    	<div class="backimageicon" id="back">
+    		<img src="download.png" alt="back" style="width:40px" >
+    	    <a href="#" onclick="clickeditback()">Back</a>
+    	</div>
+    	<div class="showoption tooltip" id="opt" >
+    		<img src="show.jpg" alt="show" style="width:40px" onclick="option()">
+            <span class="tooltiptext">Options</span>
+    	<div class="popup" id="pop" style="display:none;">
+            <span class="popuptext" id="myPopup" onclick="openDownload()">Download</span>
+            <span class="popuptext" id="Popup" style="text-align: center" onclick="openShare()">Share</span>
+        </div>
+    	</div>
+           <div class="box1" id="editbox" >
+                <div class="card5">
+                     <center>
+                     <input type="file" id="myfile" name="myfile" class="editfile">
+                    <img src="logo.png" alt="logo"  class="editimage">
+                      <label for="myfile"></label>
+                     </center>
+                     <input type="text" id="inputComName" name="Companyname" placeholder ="COMPANY NAME" readonly>
+
+                <div class="webicon">
+                     <img src="url.svg" alt="url" style="width:10px">
+                     <input type="text" id="inputweb" placeholder="Website" readonly>
+               </div>	    
+               </div>
+
+                <div class="card6">           
+                    <input type="file" id="myfile1" name="myfile" class="editfile1">
+                    <img src="logo.png" alt="logo"  id="img1" class="editimage2">
+                     <label for="myfile1" id="label"></label>
+                    <input type="text" id="inputCompanyName" name="Companyname" placeholder="Company Name" readonly>
+                     <input type="file" id="myfile2" name="myfile" class="qrfile" style="display:none;">
+                    <img src="qr.png" alt="logo" style="width:16%;display:none;" id="qr" >
+                     <label for="myfile2" id="label2"></label>
+              <!--  <div class="data"> -->
+
+                <div class="personicon">
+					<img src="person.svg" alt="person" style="width:5%" id="person" >
+					<input type="text" id="inputName" name="Name" placeholder="Name" readonly >
+				</div>
+
+				<div class="roleicon">
+				    <img src="domain.svg" alt="domain" style="width:5%" id="work" >
+				    <input type="text" id="inputRole" name="Role" placeholder="Designation" readonly>
+			    </div>
+
+			    <div class="mobileicon">
+			        <img src="phone.svg" alt="phone" style="width:5%" id="phonenumber" >
+				    <input type="tel" id="inputmobile" name="mobile" placeholder="Phone No" readonly >
+			    </div>
+
+			    <div class="addressicon">
+			        <img src="address.svg" alt="address" style="width:5%" id="add" >
+				    <input type="text" id="inputAddress" name="Address" placeholder="Address" readonly>
+			    </div>
+
+				<div class="emailicon">
+				    <img src="email.svg" alt="email" style="width:5%" id="emailaddress" >
+				     <input type="email" id="inputEmail" name="Email" placeholder="Email Address">
+				</div>  
+			 <!--   </div> -->
+                   <div class="v1"></div>
+                 </div>
+           </div>
+           <div class="buttons1" id="buttons">
+              <center>
+              <button name="button" class="button" onclick="clicksaveedit()">Edit</button><button name="button" class="button" id="save"onclick="clickfileedit()">Save</button>
+
+              <button name="cancel" class="button" onclick="clickcancel()">Cancel</button>
+              </center>
+          </div>
+    </div>
+
+    <center id="c4" style="display: none">
+    	<h3>Saved card details </h3>
+    </center>
+    <div class="container4" id="div4" style="display: none">
+    	<div class="fields">
+    	<input type="text" id="cardName" value="Name" readonly>
+    	<input type="text" id="editfi" value="Edit" readonly>
+    	<input type="text" id="download" value="Download" readonly>
+    	<input type="text" id="share" value="Share" readonly>
+    	
+        <div class="details" id="details">
+        <label  id="username" name="mycard" class="class" ></label>
+        <input type="radio" id="edit" name="mycard" placeholder="Edit" onclick="clickEdit()" class="class1">
+        <input type="radio" id="down" name="mycard" placeholder="Download" onclick="clickDownload()" class="class2">
+        <input type="radio" id="Send" name="mycard" placeholder="Share" onclick="clickShare()" class="class3">
+   	    </div>
+    </div>
+    </div>
+    <div id="downloadcontainer" style="display: none;">
+    <div class="container5" id="div5" style="display:none" style="width:20%">
+         <img src="close.svg" alt="close"  id="close" class="cancelicon" onclick="openCancel()">
+        	  <button name="btn" class="db"  onclick="onClick()" id="di">Download as PDF</button>
+              <button name="btn" class="db" onclick="clickimage()">Download as Image</button>
+    </div>
+    </div>
+
+    <div class="container6" id="div6" style="display: none">
+          <img src="close.svg" alt="close"  id="close" class="cancelicon" onclick="openCancel()">
+              <div class="whaticon">
+                    <img src="what's.png" alt="what"  id="whatapp" class="icon">
+                     <button name="btn" class="sh" onclick="sharewhatsapp()">What's App</button>
+                </div>
+
+                <div class="faceicon">
+                    <img src="face.png" alt="facebook" id="face" class="icon" >
+                     <button name="btn" class="sh" onclick="sharefacebookclick()">Facebook</button>
+                </div>
+
+                <div class="emidicon">
+                    <img src="email.png" alt="emailaddress"  id="emailid" class="icon" >
+                 <button name="btn" class="sh" onclick="sharemailclick()">Email</button>
+                </div>  
+    </div>
+</body>
+</html>

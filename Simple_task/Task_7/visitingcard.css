@@ -1,0 +1,1617 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+.wrapper{
+	width: 100%;
+	height: 100%;
+	min-width: 360px;
+	min-height: 800px;
+	position: absolute;
+}
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body
+{
+    background-image: url("");
+}
+.container {
+    width: 45%;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 44px;
+}
+.card1 {
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: 3px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+   background-color: black;
+   border: 4px solid red;
+   margin-left: 60px;
+ 
+
+}
+.card2 {
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: right;
+    right: 0;
+    top: 3px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    border: 4px solid red;
+    margin-right: 53px;
+}
+.tab{
+	
+    width: 55%;
+    height: 45px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 42%;
+    font-size: 19px;
+
+}
+.card3
+{
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: 28px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+   background-color: black;
+   border: 4px solid red;
+   margin-left: 60px;
+   margin-right: 29px;
+}
+.card4
+{
+   width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: 28px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+   background-color: black;
+   border: 4px solid red;
+   margin-right: 53px;
+}
+.card5
+{
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: -23px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+   background-color: black;
+   border: 4px solid red;
+   margin-left: 60px;
+   margin-right: 29px;
+}
+.card6
+{
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: -23px;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+   background-color: black;
+   border: 4px solid red;
+   margin-right: 3px;
+}
+#btn{
+	width: 13%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1{
+    width: 13%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    width: 100%;
+    height: 207px;
+    margin-top: 123px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 38px;
+    font-size: 30px;
+}
+#viewComName,#inputComName,#conpanylogoname{
+   border: none;
+    font-size: 23px;
+    font-family: 'Roboto';
+    color: white;
+    background-color: black;
+    margin-left: 84px;
+    margin-top: -14px;
+    width: 51%;
+    text-align: center;
+    position: relative;
+    
+}
+.webicon
+{
+    position: relative;
+    left: 112px;
+    top:18px;
+    
+}
+#viewweb,#inputweb,#web{
+    width: 34%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-family: 'Roboto';
+    padding: 2px 2px;
+    text-align: center;
+}
+#qr {
+    position: absolute;
+    left: 239px;
+    bottom: 117px;
+    border: 4px solid red;
+    padding: 5px 5px;
+}
+#viewCompanyName,#companyname{
+    position: relative;
+    left: 45px;
+    top: 42px;
+    width: 137px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    height: 46px;
+}
+.personicon
+{
+    position: relative;
+    top: -76px;
+    margin-left: 6px;
+}
+#viewName,#inputName,#name
+{
+    width: 28%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 2px;
+    font-family: 'Roboto';
+    border: none;
+    position: absolute;
+    bottom: -3px;
+}
+.roleicon
+{
+    position: relative;
+    top: -61px;
+    margin-left: 6px;
+}
+#viewRole,#inputRole,#role
+{
+    width: 28%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 2px;
+    font-family: 'Roboto';
+    border: none;
+    position: absolute;
+}
+.mobileicon
+{
+    position: relative;
+    top: -48px;
+    margin-left: 6px;
+}
+#viewmobile,#inputmobile,#Mobile
+{
+    width: 28%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 2px;
+    font-family: 'Roboto';
+    border: none;
+    margin-left: 20px;
+    
+}
+.addressicon
+{
+    position: relative;
+    top: -38px;
+    margin-left: 6px;
+}
+#viewAddress,#inputAddress,#address
+{
+    width: 38%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 2px;
+    font-family: 'Roboto';
+    border: none;
+    margin-left: 20px;
+}
+.emailicon
+{
+    position: relative;
+    top: -28px;
+    margin-left: 6px;
+}
+#viewEmail,#inputEmail,#email
+{
+     width: 40%;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 2px 2px;
+    font-family: 'Roboto';
+    border: none;
+    margin-left: 20px;
+}
+.v1 {
+    border-left: 3px solid red;
+    height: 152px;
+    margin-left: 185px;
+    margin-top: -188px;
+}
+#phonenumber
+{
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+#Add{
+       position: absolute;
+       left: 0;
+       top: 0;
+}
+#emailaddress
+{
+       position: absolute;
+       left: 0;
+       top: 0;
+}
+.box1
+{
+
+    width: 100%;
+    height: 207px;
+    margin-top: 56px;
+}
+.button{
+    font-size: 25px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 64px;
+    cursor: pointer;
+}
+.buttons1
+{
+    position: relative;
+    bottom: 44px;
+}
+
+.showoption {
+    width: 41px;
+    position: relative;
+    left: 821px;
+    bottom: 42px;
+}
+.popup {
+    position: relative;
+    bottom: 103px;
+    right: 4px;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.container4{
+    width: 844px;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.fields
+{
+    width: 100%;
+    margin-left: 2px;
+}
+#cardName{
+   font-size: 16px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align-last: center;
+    font-family: 'Roboto';
+    background: black;
+    color: white;
+    border-radius: 9px;
+}
+#editfi
+{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+}
+#download
+{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+     background: black;
+    color: white;
+    border-radius: 9px;
+}
+#share
+{
+     font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+     background: black;
+    color: white;
+    border-radius: 9px;
+}
+.Popcenter{
+    width: 265px;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    right: 301px;
+    top: 103px;
+    bottom: 0;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.db {
+    width: 103px;
+    margin-top: 67px;
+    font-size: 20px;
+    margin-left: 86px;
+    border-radius: 9px;
+    margin-bottom: -39px;
+    border: none;
+    position: relative;
+    z-index: 66;
+    height: 47px;
+}
+
+.container5{
+        margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: grey;
+        border-radius: 20px;
+        padding-top: 16px;
+        padding-left: 8px;
+        width: 288px;
+        height: 283px;
+}
+.container6{
+       margin: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: grey;
+        border-radius: 20px;
+        padding-top: 16px;
+        padding-left: 8px;
+        width: 288px;
+        height: 283px;
+}
+.sh {
+    width: 113px;
+    margin-top: 34px;
+    font-size: 18px;
+    border-radius: 27px;
+    border: none;
+    height: 50px;
+    position: relative;
+    bottom: 13px;
+}
+.icon{
+    width: 15%;
+    border-radius: 10px;
+    margin-left: 54px;
+}
+.cancelicon {
+    position: absolute;
+    left: 253px;
+    bottom: 252px;
+    width: 20px;
+}
+.tooltiptext {
+    visibility: hidden;
+    width: 54px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 102%;
+    left: 107%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.class {
+    width: 202px;
+    height: 15px;
+    display: block;
+    margin-left: 9px;
+    font-size: 22px;
+    margin-top: 26px;
+    margin-bottom: -49px;
+    text-align: center;
+    
+}
+.class1 {
+    width: 35px;
+    height: 22px;
+    margin-left: 294px;
+    position: relative;
+    bottom: 20px;
+    margin-top: 61px;
+}
+.class2 {
+    width: 35px;
+    height: 22px;
+    margin-left: 189px;
+    position: relative;
+    bottom: 24px;
+    display: inline-block;
+}
+.class3 {
+    width: 35px;
+    height: 22px;
+    margin-left: 171px;
+    position: relative;
+    bottom: 24px;
+    display: inline-block;
+}
+.logoimage {
+    width: 175px;
+    height: 137px;
+    position: relative;
+    top: 8px;
+    border-radius: 100px;
+}
+.logoimage2 {
+    width: 155px;
+    height: 102px;
+    position: relative;
+    left: 192px;
+    top: 24px;
+    border-radius: 23px;
+  
+}
+.editfile {
+    position: absolute;
+    width: 90px;
+    height: 28x;
+    top: 65px;
+    left: 129px;
+    border: 1px solid black;
+    height: 49px;
+    opacity: 0;
+    z-index: 9;
+}
+.editfile1 {
+    position: absolute;
+    width: 87px;
+    height: 28x;
+    top: 64px;
+    left: 225px;
+    z-index: 9;
+    opacity: 0;
+}
+.editimage {
+    width: 101px;
+    height: 118px;
+    position: relative;
+}
+.editimage2 {
+   width: 101px;
+    height: 92px;
+    position: relative;
+    left: 218px;
+    top: 68px;
+    border-radius: 2px;
+}
+.file1 {
+    position: absolute;
+    width: 90px;
+    height: 28x;
+    top: 42px;
+    left: 126px;
+    border: 1px solid black;
+    height: 49px;
+    opacity: 0;
+    z-index: 9;
+    right: 5px;
+}
+.file2{
+    position: absolute;
+    width: 90px;
+    height: 28x;
+    top: 99px;
+    left: 224px;
+    border: 1px solid black;
+    height: 49px;
+    opacity: 0;
+    z-index: 9;
+}
+#inputCompanyName {
+    position: relative;
+    top: 72px;
+    width: 133px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: center;
+    right: -95px;
+}
+
+#div3
+{
+    width: 45%;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#downloadcontainer
+{
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+    left: 0;
+    rigt: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(181, 168, 175, 0.46);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1919px) and (min-width: 1280px)
+{
+    .container {
+    width: 48%;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 827px;
+    max-width: 1919px;
+}
+.card1 {
+    width: 360px;
+    height: 206px;
+    border: 1px solid grey;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    border: 4px solid red;
+    margin-left: 36px;
+}
+.card2 {
+    width: 360px;
+    height: 206px;
+    border: 1px solid grey;
+    margin: auto;
+    position: relative;
+    float: right;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    border: 4px solid red;
+    margin-right: 34px;
+}
+.v1 {
+    border-left: 3px solid red;
+    height: 152px;
+    margin-left: 185px;
+    margin-top: -184px;
+}
+.tab {
+    width: 55%;
+    height: 45px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 41%;
+}
+#btn {
+    width: 13%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 22px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1 {
+    width: 13%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.container4 {
+    width: 762px;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+   
+}
+.showoption {
+    width: 41px;
+    position: relative;
+    left: 785px;
+    bottom: 44px;
+}
+.class2 {
+    margin-left: 155px;
+    }
+
+.fields {
+    width: 100%;
+    margin-left: 5px;
+}
+#cardName {
+width: 175px;
+}
+#editfi
+{
+   width: 155px;
+}
+.class1{
+    margin-left: 252px;
+}
+}
+@media screen and (max-width: 1279px) and (min-width: 960px)
+{
+   .container {
+    width: 48%;
+    height: 454px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 850px;
+    max-width: 1279px;
+}
+.tab {
+    width: 55%;
+    height: 45px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 37%;
+}
+#btn {
+    width: 20%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 23px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1 {
+    width: 18%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 23px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.card1 {
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: left;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    border: 4px solid red;
+    margin-left: 42px;
+}
+.card2 {
+    width: 360px;
+    height: 206px;
+    margin: auto;
+    position: relative;
+    float: right;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    border-radius: 12px;
+    background-color: black;
+    border: 4px solid red;
+    margin-right: 43px;
+}
+
+
+}
+@media screen and (max-width: 959px) and (min-width: 600px)
+{
+   .container {
+    height: 560px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 440px;
+}
+.tab{
+    width: 332px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -66px;
+    top: -19px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -9px;
+    font-size: 26px;
+}
+#btn {
+    width: 31%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 19px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1 {
+    width: 29%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.card1{
+    top: -50px;
+    margin-left: 39px;
+}
+.card2{
+    top: -38px;
+    margin-right: 36px;
+}
+
+    .button {
+    margin-top: -19px;
+    margin-left: 1px;
+}
+
+.container4 {
+   
+    height: 560px;
+    width: 554px;
+}
+.fields {
+    width: 100%;
+    margin-left: 1px;
+    height: 460px;
+}
+#div3
+{
+    height: 560px;
+    width: 440px;
+    height: 560px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.card5{
+    top: -121px;
+    margin-left: 41px;
+}
+.card6{
+    margin-left: 37px;
+    top: -66px;
+}
+
+.container5{
+    width: 239px;
+    height: 200px;
+}
+.cancelicon {
+    position: absolute;
+    left: 207px;
+    bottom: 167px;
+    width: 20px;
+}
+.db {
+    width: 103px;
+    font-size: 20px;
+    margin-left: 60px;
+    border-radius: 9px;
+    margin-bottom: 3px;
+    border: none;
+    position: relative;
+    z-index: 66;
+    height: 47px;
+    margin-top: 25px;
+}
+.container6
+{
+    width: 239px;
+    height: 200px;
+}
+#close
+{
+     position: absolute;
+    left: 203px;
+    bottom: 171px;
+    width: 20px;
+}
+.icon {
+    width: 13%;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-right: 2px;
+    margin-bottom: -13px;
+}
+.sh {
+    width: 113px;
+    margin-top: 12px;
+    font-size: 18px;
+    border-radius: 27px;
+    border: none;
+    height: 39px;
+    position: relative;
+    bottom: -4px;
+}
+.showoption {
+    position: relative;
+    left: 399px;
+    bottom: 42px;
+}
+
+#cardName {
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align-last: center;
+    font-family: 'Roboto';
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 135px;
+}
+#editfi {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 135px;
+}
+#download {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 135px;
+}
+#share {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 135px;
+}
+
+.buttons1 {
+    position: relative;
+    bottom: 18px;
+}
+.class {
+    width: 202px;
+    height: 15px;
+    display: block;
+    margin-left: -19px;
+    font-size: 22px;
+    margin-top: 26px;
+    margin-bottom: -49px;
+    text-align: center;
+}
+.class1 {
+    width: 35px;
+    height: 22px;
+    margin-left: 188px;
+    position: relative;
+    bottom: 25px;
+    margin-top: 61px;
+}
+.class2 {
+    width: 35px;
+    height: 22px;
+    margin-left: 102px;
+    position: relative;
+    bottom: 26px;
+    display: inline-block;
+}
+.class3 {
+    width: 35px;
+    height: 22px;
+    margin-left: 449px;
+    position: relative;
+    bottom: 49px;
+    display: inline-block;
+}
+}
+@media screen and (max-width: 599px) and (min-width: 390px)
+{
+     .container {
+    
+    height: 560px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 598px;
+    min-width: 386px;
+
+   
+}
+.tab{
+    width: 279px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -67px;
+    top: -19px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -9px;
+    font-size: 26px;
+}
+#btn {
+    width: 31%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 19px;
+    margin-right: 19px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1 {
+    width: 29%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.card1{
+    top: -50px;
+    margin-left: 13px;
+}
+.card2{
+    top: -38px;
+    margin-right: 13px;
+}
+
+    .button {
+    margin-top: -19px;
+    margin-left: 1px;
+}
+
+.container4 {
+   
+    height: 560px;
+    width: 358px;
+}
+.fields {
+    width: 100%;
+    margin-left: 1px;
+    height: 460px;
+}
+.card5{
+    top: -121px;
+    margin-left: 41px;
+}
+.card6{
+    margin-left: 37px;
+    top: -66px;
+}
+#downloadcontainer {
+    width: 441px;
+    height: 559px;
+    position: absolute;
+    left: 0;
+    rigt: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(181, 168, 175, 0.46);
+    
+    }
+.container5{
+    width: 239px;
+    height: 200px;
+}
+.cancelicon {
+    position: absolute;
+    left: 207px;
+    bottom: 167px;
+    width: 20px;
+}
+.db {
+    width: 103px;
+    font-size: 20px;
+    margin-left: 60px;
+    border-radius: 9px;
+    margin-bottom: 3px;
+    border: none;
+    position: relative;
+    z-index: 66;
+    height: 47px;
+    margin-top: 25px;
+}
+.container6
+{
+    width: 239px;
+    height: 200px;
+}
+#close
+{
+     position: absolute;
+    left: 203px;
+    bottom: 171px;
+    width: 20px;
+}
+.icon {
+    width: 13%;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-right: 2px;
+    margin-bottom: -13px;
+}
+.sh {
+    width: 113px;
+    margin-top: 12px;
+    font-size: 18px;
+    border-radius: 27px;
+    border: none;
+    height: 39px;
+    position: relative;
+    bottom: -4px;
+}
+.showoption {
+    position: relative;
+    left: 330px;
+    bottom: 42px;
+}
+
+#cardName {
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align-last: center;
+    font-family: 'Roboto';
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 108px;
+}
+#editfi {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 63px;
+}
+#download {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 99px;
+}
+#share {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 73px;
+}
+
+.buttons1 {
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+}
+.class {
+    width: 202px;
+    height: 15px;
+    display: block;
+    margin-left: -47px;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: -49px;
+    text-align: center;
+}
+.class1 {
+    width: 10px;
+    height: 22px;
+    margin-left: 143px;
+    position: relative;
+    bottom: 25px;
+    margin-top: 61px;
+}
+.class2 {
+    width: 10px;
+    height: 22px;
+    margin-left: 79px;
+    position: relative;
+    bottom: 26px;
+    display: inline-block;
+}
+.class3 {
+    width: 10px;
+    height: 22px;
+    margin-left: 316px;
+    position: relative;
+    bottom: 49px;
+    display: inline-block;
+}
+.webicon
+{
+    position: relative;
+    left: 112px;
+    top:18px;
+    width: 163px;
+    
+}
+.wrapper{
+    overflow-x: hidden;
+}
+}
+@media screen and (max-width: 390px){
+
+.container {
+    
+    height: 560px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 598px;
+    min-width: 386px;
+
+   
+}
+.tab{
+    width: 279px;
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    left: -67px;
+    top: -19px;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: -9px;
+    font-size: 26px;
+}
+#btn {
+    width: 31%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 19px;
+    margin-right: 19px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+#btn1 {
+    width: 29%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 20px;
+    margin-right: 34px;
+    background-color: #2f4f4f2e;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.card1{
+    top: -50px;
+    margin-left: 13px;
+}
+.card2{
+    top: -38px;
+    margin-right: 12px;
+}
+
+    .button {
+    margin-top: -19px;
+    margin-left: 1px;
+}
+
+.fields {
+    width: 100%;
+    margin-left: 1px;
+    height: 460px;
+}
+.card5{
+    top: -121px;
+    margin-left: 41px;
+}
+.card6{
+    margin-left: 37px;
+    top: -66px;
+}
+#downloadcontainer {
+    width: 441px;
+    height: 559px;
+    position: absolute;
+    left: 0;
+    rigt: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(181, 168, 175, 0.46);
+    
+    }
+.container5{
+    width: 239px;
+    height: 200px;
+}
+.cancelicon {
+    position: absolute;
+    left: 207px;
+    bottom: 167px;
+    width: 20px;
+}
+.db {
+    width: 103px;
+    font-size: 20px;
+    margin-left: 60px;
+    border-radius: 9px;
+    margin-bottom: 3px;
+    border: none;
+    position: relative;
+    z-index: 66;
+    height: 47px;
+    margin-top: 25px;
+}
+.container6
+{
+    width: 239px;
+    height: 200px;
+}
+#close
+{
+     position: absolute;
+    left: 203px;
+    bottom: 171px;
+    width: 20px;
+}
+.icon {
+    width: 13%;
+    border-radius: 10px;
+    margin-left: 37px;
+    margin-right: 2px;
+    margin-bottom: -13px;
+}
+.sh {
+    width: 113px;
+    margin-top: 12px;
+    font-size: 18px;
+    border-radius: 27px;
+    border: none;
+    height: 39px;
+    position: relative;
+    bottom: -4px;
+}
+.showoption {
+    position: relative;
+    left: 330px;
+    bottom: 42px;
+}
+
+
+.buttons1 {
+    position: relative;
+    bottom: 18px;
+    left: 8px;
+}
+.webicon
+{
+    position: relative;
+    left: 112px;
+    top:18px;
+    width: 163px;
+    
+}
+#cardName {
+    font-size: 16px;
+    padding-top: 2px;
+    padding-left: 2px;
+    text-align-last: center;
+    font-family: 'Roboto';
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 108px;
+}
+#editfi {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 63px;
+}
+#download {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 99px;
+}
+#share {
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Roboto';
+    padding-top: 2px;
+    padding-left: 2px;
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 73px;
+}
+.class {
+    width: 202px;
+    height: 15px;
+    display: block;
+    margin-left: -47px;
+    font-size: 16px;
+    margin-top: 26px;
+    margin-bottom: -49px;
+    text-align: center;
+}
+.class1 {
+    width: 10px;
+    height: 22px;
+    margin-left: 143px;
+    position: relative;
+    bottom: 25px;
+    margin-top: 61px;
+}
+.class2 {
+    width: 10px;
+    height: 22px;
+    margin-left: 79px;
+    position: relative;
+    bottom: 26px;
+    display: inline-block;
+}
+.class3 {
+    width: 10px;
+    height: 22px;
+    margin-left: 316px;
+    position: relative;
+    bottom: 49px;
+    display: inline-block;
+}
+
+}
