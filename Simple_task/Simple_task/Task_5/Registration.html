@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task 5</title>
+	<link rel="stylesheet" href="register.css">
+    <script type="text/javascript" src="Register.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		
+		<div class="content">
+			<div class="box">
+				<h3> REGISTER PAGE </h3><hr>
+				    <div class="field">
+                    <form autocomplete="off">
+				    <label  class="lab"> Name</label>    
+                    <input type="text" name="Name"  placeholder= "Enter Your Name" class="btn" id="name" onfocus="focusName()">
+                    <br>     
+                    <label  class="lab" > Mobile Number</label>    
+                    <input type="tel" name="MobileNumber" placeholder="Enter Your MobileNumber" class="btn" id="mobile" onfocus="focusMobile()">
+                    <br>
+                     <label  class="lab">EmailID</label>  
+                     <input type="email" placeholder="Enter Your Email Address" name="email" class="btn" id="email"onblur="blurFunction()" onfocus="focusEmail()">
+                     <br>
+                     <label  class="lab" >Password</label>  
+                     <input type="password" placeholder="Enter Your Password" name="psw" class="btn" id="pwd" onfocus="focusPassword()">  
+                     <br>
+                    <label  class="lab" >Confirm Password</label>  
+                    <input type="password" placeholder="Confirm Your Password" name="psw-repeat" class="btn" id="repwd"onfocus="focusRepassword()"> 
+                    <br> 
+                    <div class="reg">
+                    <center> 
+                    <!-- <button id="submit" name="submit" onclick="Register();">Register</button> -->
+                    <input type="button" id="submit" name="submit" value="Register" onclick="Register()">
+                    </center>
+                </div>
+                    </form>
+                    <div class="para">
+                    <p>Have already an account?<a href="login.html" >Login Here</a></p>
+                    </div>
+                    </div>    
+
+			</div>
+            <p id="demo" class="pa" ></p>
+		</div>
+	</div>
+</body>
+</html>
