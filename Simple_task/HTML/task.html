@@ -1,0 +1,286 @@
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Css Task</title>
+<!-- <link rel="stylesheet" type="text/Css" href="Asha/CasCading/reset.css"> -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+*{
+     box-sizing: border-box;
+}
+body{
+     margin: 0;
+     padding: 0;
+}
+.border{
+          width: 100%;
+          height: 100%;
+          min-height: 400px;
+          position: absolute;
+     }
+
+
+p{
+	
+    font-family: Roboto;
+    font-size: 15px;
+    color:rgb(64, 64, 64);
+}
+
+
+.c1
+     {
+              position: absolute;
+              left: 0;
+              right: 0;
+              top: 0;
+              bottom: 0;
+              margin: auto;   
+     	    border-radius:16px;
+     	    border: 2px grey solid;
+     	    width: 340px;
+     	    height: 341px;
+     	    text-align: center;
+     	    color: black;
+     	    border-color: lightgrey;
+              padding-top: 120px;
+              padding-bottom: 10px;
+}
+.center{
+     position: absolute;
+     left: 0;
+     right: 0;
+     margin: auto;
+     height: 112px;
+}
+.b1{
+           text-align: center;
+           font-size: 17px;
+           border-radius: 20px 20px;
+           background-color:rgb(0,0,0,0.1);
+           width: 135px;
+           border: 1px solid lightslategrey;
+           color: black;
+           font-family: 'Roboto', sans-serif;
+           font-weight: 150px;
+           margin-right: 40px;
+           margin-left: 0;
+}
+        
+
+.b2{
+           margin-top: 10px;
+	      text-align: center;
+           font-size: 17px;
+           border-radius: 20px 20px;
+           background-color:white;
+           width: 135px;
+           border: 1px solid lightslategrey;
+           font-weight: 100;
+           font-family: 'Roboto', sans-serif;
+           color: black;
+      }
+.padd{
+     padding-top: 7px;
+      padding-bottom: 7px;
+      padding-right: 10px;
+      padding-left: 10px;
+}
+
+img {
+    position: fixed;
+    left:0;
+    top: 0;
+}
+
+img:hover{
+     cursor: pointer;
+} 
+.b1:hover{
+     cursor: pointer;
+} 
+.b2:hover{
+     cursor: pointer;
+}
+a{
+     
+     position: fixed;
+     bottom: 7px;
+     right: 6px;
+    /* padding-top: 100px;*/
+     color: deepskyblue;
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 279px){
+     .border{
+          width: 280px;
+     }
+     .c1{
+         width: 260px;
+         text-align: center;
+         color: black;
+         border-color: lightgrey;
+         padding-top: 120px;
+         padding-bottom: 10px;
+         margin-left: 14px;
+     }
+   
+     .b1{ 
+          width: 105px;
+          text-align: center;
+          font-size: 15px;
+          border-radius: 20px 20px;
+          background-color:rgb(0,0,0,0.1);
+          margin-right: 21px;
+         
+          
+
+     }
+     .b2{
+          margin-top: 10px;
+          width: 105px;
+          text-align: center;
+          font-size: 15px;
+          border-radius: 20px 20px;
+          background-color:white;
+          font-weight: 100;
+          font-family: 'Roboto', sans-serif;
+          color: black;
+         
+         }
+          .padd{
+          padding-top: 5px;
+           padding-bottom: 5px;
+           padding-right: 25px;
+           padding-left: 25px;
+
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 280px){     
+     .c1{
+          min-width: 260px;
+          width: 80%;
+          max-width: 340px;
+          /*width: 340px;*/
+          text-align: center;
+          color: black;
+          border-color: lightgrey;
+          padding-top: 120px;
+          padding-bottom: 10px;
+     }
+
+     .b1{
+          width:105px;
+          text-align: center;
+          font-size: 15px;
+          border-radius: 20px 20px;
+          background-color:rgb(0,0,0,0.1);
+          /*margin-left: 1px;*/
+          margin-right: 21px;
+
+     }
+     .b2{
+           margin-top: 10px;
+           width:105px;
+          text-align: center;
+          font-size: 15px;
+          border-radius: 20px 20px;
+          background-color:white;
+          /*margin-left: 1px;*/
+          font-weight: 100;
+          font-family: 'Roboto', sans-serif;
+          color: black;
+         /* margin-left: 15px;*/
+     }
+     .padd{
+          padding-top: 5px;
+           padding-bottom: 5px;
+           padding-right: 25px;
+           padding-left: 25px;
+
+     }
+     a{
+     
+     position: fixed;
+     bottom: 9px;
+     right: 6px;
+    /* padding-top: 100px;*/
+     color: deepskyblue;
+     text-decoration: none;
+     font-family: 'Roboto', sans-serif;
+}
+     
+
+@media screen and (max-width: 1279px) and (min-width: 960px){
+     .c1{
+          min-width: 170px;
+          max-width: 370px;
+          width: 36%;
+          width: 340px;
+          text-align: center;
+          color: black;
+          border-color: lightgrey;
+          padding-top: 120px;
+          padding-bottom: 7px;
+     }
+     .b1{
+
+          width: 133px;
+          text-align: center;
+          font-size: 17px;
+          border-radius: 20px 20px;
+          background-color:rgb(0,0,0,0.1);
+          padding-right: 20px;
+          padding-left: 20px;
+          margin-left: 1px;
+          margin-right: 30px;
+
+     }
+     .b2{
+           margin-top: 10px;
+           text-align: center;
+           font-size: 17px;
+           border-radius: 20px 20px;
+           background-color: white;
+           width: 133px;
+           border: 1px solid lightslategrey;
+           font-weight: 100;
+           font-family: 'Roboto', sans-serif;
+           color: black;
+     }
+     .padd{
+           padding-top: 7px;
+           padding-bottom: 7px;
+           padding-right: 35px;
+           padding-left: 35px;
+
+     }
+
+
+}
+
+
+
+
+</style>
+</head>
+
+<body>
+<div class="border">
+<img src="test_logo.png" width=60px height="60px">
+	<div class="c1">
+	
+     <div class="center">
+     <p> choose an option to navigate </p>
+	<button class="b1 padd">Grey</button> 
+	<button class="b2 padd">White</button>
+</div>
+</div>
+<br>
+<a href="#">help</a>
+</body>
+</html>

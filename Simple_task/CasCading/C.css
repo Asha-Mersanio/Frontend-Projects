@@ -1,0 +1,13 @@
+body
+div{
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+}
+@keyframes example{
+	to{background-color: red to green;}
+	from{background-color: green to yellow;}
+}

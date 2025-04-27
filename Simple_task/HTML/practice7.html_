@@ -1,0 +1,21 @@
+<!DOCTYPE.html>
+<html>
+<head>
+	<title> What's App </title>title
+</head>
+<body>
+	<h1> Home Page </h1>
+	<h2> Status </h2>
+	<h3> Call </h3>
+<table>
+	<thead>
+		<tr>
+			<th> Name </th>
+			<th> Contact Number </th>
+		<td> Asha </td>
+		<td> 987653421 </td>
+	    </tr>
+	</thead>
+</table>
+</body>
+</html>

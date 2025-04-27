@@ -1,0 +1,19 @@
+body{
+	background-color:rgb(3, 252, 190);
+	font-style: italic;
+
+}
+h1{
+	 color: darkred;
+}
+table {
+               font-family: arial, sans-serif;
+               border-collapse: collapse;
+               width:25%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 8px;
+}
