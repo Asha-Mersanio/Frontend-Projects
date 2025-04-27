@@ -1,0 +1,224 @@
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face 
+{
+    font-family: 'roboto';
+    src: url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.eot');
+    src: url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.woff') format('woff'),
+         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/roboto/roboto-bold/Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+h1
+{
+	text-align: center;
+    background-color: burlywood;
+    width: 50%;
+    margin: auto;
+   font-family: 'roboto';
+   font-weight: 700;
+   font-style: normal;
+   padding-bottom: 8px;
+   margin-top: 5px;
+}
+h5
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 15px;
+}
+.background_color 
+{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid #80808059;
+    background-color: chartreuse;
+    /* backface-visibility: visible; */
+}
+p
+{
+	text-align: center;
+    font-size: 15px;
+    padding-top: 49px;
+}
+.background_gradient 
+{
+    width: 30%;
+    height: 200px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+.background_image
+{
+	width: 30%;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid #80808059;
+}
+.background_image::before 
+{    
+      content: "";
+      background-image: url("../images/shinchan.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+     opacity: 0.75;
+}
+.para 
+{
+    position: absolute;
+    color: #000000;
+    font-size: 5rem;
+    line-height: 0.9;
+    text-align: center;
+    margin-top: 136px;
+    margin-left: 39px;
+}
+.background 
+{
+    width: 30%;
+    height: 585px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    border: 1px solid #80808059;
+    background-image: url(../images/flower-border-vector-12077.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px dotted black;
+    padding: 8px;
+    background-clip: content-box;
+}
+.back
+{
+    font-size: 27px;
+    text-align: -webkit-center;
+}
+div.background1 
+{
+  background:  url(../images/white_daisies.jpg) no-repeat center;
+  background-size: cover;
+  width: 30%;
+  height: 585px;
+  position: relative;
+  margin: auto;
+  margin-top: 60px;
+  border: 1px solid #80808059;
+  
+}
+
+div.transbox 
+{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+    margin: auto;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    cursor: pointer;
+}
+#text
+{
+    font-family: bold;
+    text-align: center;
+    margin-top: -14px;
+}
+.animation 
+{
+    width: 30%;
+    height: 248px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+    background-image: url(../images/car2.jpg);
+    border: 1px solid #80808059;
+    background-repeat: no-repeat;
+    background-size: 570px 254px;
+}
+#ani_p
+{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-top: -40px;
+}
+img 
+{
+    width: 85px;
+    margin-left: 6px;
+    width: 78px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    margin-top: 137px;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+#car2
+{
+    width: 50px;
+    margin-left: 6px;
+    width: 78px;
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    animation: mymove1 5s infinite;
+    animation-timing-function: ease-out;
+   margin-top: 129px;
+}
+@keyframes mymove1 {
+  from {left: 50px;}
+  to {left: 250px;}
+}
+.reflect {
+    width: 30%;
+    height: 288px;
+    position: relative;
+    margin: auto;
+    margin-top: 60px;
+/*    border: 1px solid #80808059;*/
+}
+#nature {
+    width: 100%;
+    height: 189px;
+    animation: none;
+    position: absolute;
+    top: -128px;
+    left: -7px;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+
+
